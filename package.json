@@ -1,0 +1,31 @@
+{
+  "name": "react-namaste",
+  "version": "1.0.0",
+  "description": "-Dev Build\r -local sever\r -HRM- Hot Module Replacement\r -File Watching Algorithm\r -Caching - Faster Builds\r -Image Optimization\r -Minification\r -Bundling\r -Compress\r -Consistent Hashing\r -Code Splitting\r -Diffrential Bundling - support older browsers\r -Diagnostic\r -Error Handling\r -HTTPs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "sweta"
+  ],
+  "author": "sweta",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
