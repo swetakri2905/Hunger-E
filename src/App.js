@@ -20,7 +20,7 @@ import Cart from "./components/Cart";
    
 
 
-const AppLayout = () => {
+  const AppLayout = () => {
 
   return(
     <Provider store={appStore}>
@@ -34,7 +34,7 @@ const AppLayout = () => {
   );
 };
 
-const appRouter = createBrowserRouter([
+ const appRouter = createBrowserRouter([
 
   {
     path: "/",
